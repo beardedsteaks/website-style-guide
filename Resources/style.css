@@ -175,7 +175,10 @@ section {
 
 .RockSaltfontSample,
 .PoppinsfontSample,
-.PromptfontSample {
+.PromptfontSample,
+.h1TypeSample,
+.h2TypeSample,
+.pTypeSample {
 	display: inline-block;
 	background-color: rgba(104, 104, 104, 0.377);
 	padding: 2rem;
@@ -202,6 +205,20 @@ section {
 	grid-row: 1 / 2;
 	font-family: 'Prompt', sans-serif;
 }
+
+.h1TypeSample {
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+}
+.h2TypeSample {
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+}
+.pTypeSample {
+	grid-column: 3 / 4;
+	grid-row: 1 / 2;
+}
+
 footer {
 	width: 100%;
 	position: fixed;
